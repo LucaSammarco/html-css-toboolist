@@ -38,5 +38,39 @@ main {
     height: 500px;
     padding: 20px;
     background-color: white;
-    border-radius: 10px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+nav {
+    /* background-color: aqua; */
+    padding-left: 2rem;
+}
+
+
+nav button {
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blue-button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.white-button {
+    background-color: white;
+    color: grey;
+    border-color: grey;
+}
+
+#separatore {
+    background-color:red;
+    border-color: red;
+    padding: 0%;
+    
+    height: 1px;
+    margin-top: 10px;
 }
