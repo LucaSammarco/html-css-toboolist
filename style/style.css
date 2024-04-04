@@ -35,7 +35,7 @@ header h1 {
 main {
     margin: 70px 130px;
     
-    height: 500px;
+    height: 630px;
     padding: 20px;
     background-color: white;
     border-radius: 10px 10px 0 0;
@@ -55,9 +55,9 @@ nav button {
 }
 
 .blue-button {
-    background-color: blue;
+    background-color: rgb(0, 170, 255);
     color: white;
-    border-color: blue;
+    border-color: rgb(0, 170, 255);
 }
 
 .white-button {
@@ -73,4 +73,65 @@ nav button {
     
     height: 1px;
     margin-top: 10px;
+}
+
+section {
+    padding: 2rem;
+}
+
+.triangle {
+    font-size: 1.2rem;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+li {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+section button {
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.violet-button {
+    background-color: rgb(110, 39, 224);
+    color: white;
+    border-color:  rgb(110, 39, 224);
+}
+
+.green-button {
+    background-color: rgb(4, 228, 175);
+    color: white;
+    border-color:  rgb(4, 228, 175);
+}
+
+.orange-button {
+    background-color: rgb(255, 118, 5);
+    color: white;
+    border-color: rgb(255, 118, 5);
+}
+
+.pink-button {
+    background-color: rgb(224, 95, 142);
+    color: white;
+    border-color: rgb(224, 95, 142);
+}
+
+.light-green-button {
+    background-color: rgb(80, 213, 98);
+    color: white;
+    border-color:  rgb(80, 213, 98);
 }
